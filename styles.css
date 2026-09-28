@@ -25,3 +25,11 @@ body.is-paused .ambient-bg .orb,body.is-paused .ambient-bg:before,body.is-paused
 .final-actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:8px}.final-actions a,.final-actions button{display:inline-flex;align-items:center;gap:12px;border:1px solid #7da59f;background:#ffffff80;color:var(--ink);border-radius:999px;padding:12px 18px;text-decoration:none;font:600 .86rem Manrope;cursor:pointer;transition:transform .25s,background .25s,color .25s}.final-actions a:hover,.final-actions button:hover{transform:translateY(-3px);background:var(--ink);color:#fff}.final-actions span{font-size:1rem}.restart{display:inline-flex}
 @keyframes particle-drift{from{transform:translate3d(-1%,1%,0) scale(.98);opacity:.25}to{transform:translate3d(2%,-2%,0) scale(1.04);opacity:.55}}@keyframes particle-scan{from{transform:translateX(-80%);opacity:0}35%,70%{opacity:1}to{transform:translateX(80%);opacity:0}}
 @media(prefers-reduced-motion:reduce){.ambient-bg:after,.ambient-bg .orb,.ambient-bg:before,.ambient-bg .grid:before,.ambient-bg .grid:after,.particle-field,.particle-field:after{animation:none!important}}
+.science-formulas{display:none!important}
+.ambient-video{opacity:.72!important}
+.ambient-bg{z-index:0}
+#top{position:relative;z-index:1}
+.ambient-video{z-index:0!important}
+.video-glass{z-index:1!important;background:linear-gradient(135deg,#edf4f184,#ffffff42 45%,#dcebe86e)!important;backdrop-filter:blur(8px)}
+.science-overlay{z-index:2!important;opacity:.25}
+.has-played h1,.has-played h2{animation:none!important;opacity:1!important;transform:none!important;filter:none!important}
